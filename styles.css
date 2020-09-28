@@ -1,0 +1,107 @@
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+
+@font-face {
+  font-family: Weiss Lapidar;
+  src: url('WeissLapidar.ttf');
+}
+
+@font-face {
+  font-family: Hermit;
+  src: url('Hermit-light.otf');
+}
+
+body {
+  background-color: #282c34;
+  font-family: 'Hermit';
+  color: #ffffff;
+}
+
+ul.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+li.nav {
+  display: inline;
+}
+
+a.nav {
+  padding: 8px;
+  background-color: #dddddd;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+
+.title {
+
+  font-size: 50px;
+  margin: 21px;
+  text-align: center;
+  font-family: 'Weiss Lapidar'
+}
+
+.caption {
+  font-size: 12px;
+  margin: 20px;
+  font-family: 'Weiss Lapidar';
+  text-align: center;
+
+}
+
+.navSection {
+  background-color: #eee;
+  margin: auto;
+}
+
+.navLinksSection {
+  font-size: 20px;
+  margin: 20px;
+  padding: 10px;
+  text-align: center;
+  font-family: 'Weiss Lapidar'
+}
+
+.navLink {
+  padding: 10px
+}
+
+.emailIcon {
+  color: #ffffff;
+  font-size: 42px;
+  margin: inherit;
+  align-self: center;
+}
+
+.githubIcon {
+  color: #000000;
+  font-size: 42px;
+  margin: inherit;
+  align-self: center;
+}
+
+.steamIcon {
+  color: #00107f;
+  font-size: 42px;
+  margin: inherit;
+  align-self: center;
+}
+
+.childIcons {
+  margin: 30px;
+}
+
+.projectList {
+  list-style-image: none;
+  margin: auto;
+}
+
+.projectItem {
+  margin: 50px 0;
+
+}
